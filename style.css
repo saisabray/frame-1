@@ -80,7 +80,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 87px
+    gap: 87px;
 }
 
 .failure-container img {
@@ -175,11 +175,9 @@ li {
     background: white;
 }
 
-.call-btn:Hover {
-    background: #f9d924;
-    color: #ffffff;
-    border: 1px solid #ff5a1f;
-
+.call-btn:active {
+    color: white;
+    background: #11afda;
 }
 
 .call-container {
