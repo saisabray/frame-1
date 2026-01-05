@@ -14,8 +14,8 @@
     max-width: 1600px;
     height: 800px;
     margin: 0 auto;
-    width: 100%;
     flex-wrap: nowrap;
+    margin-bottom: 130px;
 
 }
 
@@ -68,10 +68,10 @@
 }
 
 #failure {
-    max-width: 1600px;
+    max-width: 1140px;
     width: 84%;
     margin: 0 auto;
-    padding: 70px 200px 0px 150px;
+    margin-bottom: 130px;
 }
 
 .failure-container {
@@ -112,4 +112,46 @@ li {
 .failure-list li {
     list-style-type: none;
     margin-bottom: 8px;
+}
+
+#plan {
+    max-width: 1140px;
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+
+
+}
+
+.plan-container h2 {
+    font-weight: bold;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 86px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    max-width: 218px;
+    text-align: center;
+
+
+}
+
+.cards h4 {
+    font-size: 27px;
+    font-weight: Bold;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
 }
