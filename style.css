@@ -46,13 +46,14 @@
     color: #FFFFFF;
     text-align: center;
     width: 160px;
-    border: none;
+    /* border: none; */
     border-radius: 10px;
     font-size: 20px;
     font-family: 600;
     padding: 20px 0px;
     cursor: pointer;
     box-shadow: 0px 5px 20px 0px black;
+    border: 1px solid transparent;
 }
 
 .btn:hover {
@@ -64,8 +65,8 @@
 .btn:active {
     background-color: rgba(255, 255, 255, 0.114);
     color: black;
-    /* transform: scale(1.05); */
-    border: 1px solid gold;
+    border-color: #ca9720;
+    /* To solve the click with text moving prob(layout reflow) you just need to add border to btn and color to active */
 }
 
 #failure {
