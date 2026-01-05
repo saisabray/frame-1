@@ -161,10 +161,11 @@ li {
     max-width: 1140px;
     width: 84%;
     background: url("images/gradient2.png"), url("images/watch.png");
-    /* background-size: cover,cover;
-    background-repeat: no-repeat,no-repeat;
-    background-position: center, center; */
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 .call-btn {
