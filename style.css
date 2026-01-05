@@ -47,17 +47,18 @@
     text-align: center;
     width: 160px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
     font-family: 600;
     padding: 20px 0px;
     cursor: pointer;
+    box-shadow: 0px 5px 20px 0px black;
 }
 
 .btn:hover {
     background-color: rgb(128, 4, 128);
     color: white;
-    /* transform: scale(1.05); */
+
 }
 
 .btn:active {
@@ -154,4 +155,38 @@ li {
     margin-top: 24px;
     margin-bottom: 16px;
 
+}
+
+#call {
+    max-width: 1140px;
+    width: 84%;
+    background: url("images/gradient2.png"), url("images/watch.png");
+    /* background-size: cover,cover;
+    background-repeat: no-repeat,no-repeat;
+    background-position: center, center; */
+    margin: 0 auto;
+}
+
+.call-btn {
+    margin: 0;
+    color: #F15B22;
+    background: white;
+}
+
+.call-btn:Hover {
+    background: #f9d924;
+    color: #ffffff;
+    border: 1px solid #ff5a1f;
+
+}
+
+.call-container {
+    padding: 59px 617px 59px 64px;
+}
+
+.call-container h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
 }
