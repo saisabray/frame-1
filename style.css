@@ -199,9 +199,8 @@ li {
 
 footer {
     max-width: 1600px;
-    width: 84%;
     background: #151414;
-    margin: 0 auto;
+
 }
 
 .footer-container {
@@ -256,6 +255,8 @@ footer {
     border: 1px solid #ffffff;
     border-radius: 8px;
     margin-bottom: 16px;
+    color: white;
+
 
 }
 
